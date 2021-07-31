@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    padding: 20px 0;
+}
+
+.menu-list{
+    display: flex;
+}
+
+.logo{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    color: #22262A;
+}
+
+.menu-list-item{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.menu-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+
+.fa-heart{
+    margin: 0 20px;
+}
+
+#hero{
+    background: url("../image/heroimages/herobg.png");
+    min-height: 745px;
+    margin-bottom: 60px;
+}
+#new\ trend{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 120px;
+    color: #22262A;
+
+}
+#hero\ description{
+    display: block;
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+.hero-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 5px 30px;
+    background: black;
+    margin-right: 35px;
+}
+.hero-item{
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+}
+.col-6{
+    width: 50%;
+    padding: 0 15px;
+}
+.category-men1{
+    width: 100%;
+}
+#category .row{
+    margin: 0 -15px;
+}
+.female-img{
+    display: flex;
+    margin: 20px -12px 0 -12px;
+}
+.female-img-col-6{
+    width: 50%;
+    padding: 0 12px;
+}
+.category-women{
+    width: 100%;
+}
+.category-name-box{
+    background: #00000050 url("../image/category/men2-bg.png");
+    background-blend-mode: darken;
+    position: relative;
+    min-height: 570px;
+    top: -4px;
+}
+.category-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+    background: white;
+    padding: 5px 25px;
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+}
+#womens, #mens{
+    padding-top: 115px;
+}
+.womens-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #22262A;
+    margin-bottom: 15px;
+}
+.womens-desc{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #22262A;
+    display: block;
+    margin-bottom: 65px;
+}
+.col-3{
+    width: 25%;
+    padding: 0 10px;
+}
+#womens .row{
+    margin: 0 -10px;
+}
+.womens-product-desc{
+    margin-top: 40px;
+}
+.womens-fashion-img{
+    width: 100%;
+}
+.product-item-desc{
+    display: block;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+.product-item-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+.product-price{
+    width: 145px;
+    display: flex;
+    justify-content: space-between;
+}
+.old-price{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+    text-decoration: line-through;
+}
+.new-price{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: red;
+}
+#avone-styles{
+    padding-top: 110px;
+    padding-bottom: 120px;
+}
+.avone-styles-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #22262A;
+}
+.avone-styles-desc{
+    display: block;
+    margin: 15px 0 60px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #22262A;
+}
+#avone-styles .row{
+    margin: 0 -15px;
+}
+.col-6{
+    width: 50%;
+    padding: 0 15px;
+}
+.styles-img-left{
+    width: 100%;
+    margin-top: 90px;
+}
+.styles-img-right{
+    width: 100%;
+
+}
+.show-dress{
+    position: relative;
+    min-height: 280px;
+}
+.show-img{
+    position: absolute;
+    right: -40px;
+    padding: 20px 0 0 25px;
+    top: -67px;
+    background: white;
+}
+.show-desc{
+    position: absolute;
+    top: 170px;
+    left: 135px;
+    border-bottom: 1px solid black;
+}
+#tachen{
+    position: relative;
+    background: url("../image/tachen/tachen-bg.png");
+    min-height: 745px;
+}
+.item-tachen{
+    position: absolute;
+    top: 434px;
+    left: 230px;
+}
+.tachen-desc{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+.tachen-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 120px;
+    color: #22262A;
+}
+.link-tachen{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    width: 214px;
+    height: 35px;
+    background: #22262A;
+    padding: 5px 25px;
+}
+#feedback{
+    min-height: 606px;
+    background: #F2F8FC;
+    position: relative;
+}
+.item-feedback{
+    position: absolute;
+    width: 406px;
+    height: 290px;
+    left: 230px;
+    top: 115px;
+}
+.logo{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    color: #22262A;
+    display: block;
+    margin-bottom: 17px;
+}
+.feedback-desc{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+    display: block;
+    margin-bottom: 41px;
+}
+.location-icon{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    color: #22262A;
+    margin-right: 26px;
+}
+.location{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+.email{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 7px;
+    border-bottom: 1px solid;
+    padding-bottom: 4px;
+    width: 237px;
+}
+.phone{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+.social{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    color: #000000;
+    margin-top: 16px;
+}
+.fab{
+    padding-right: 10px;
+}
+.item-updates{
+    position: absolute;
+    right: 140px;
+    top: 115px;
+    width: 532px;
+    height: 385px;
+}
+.updates{
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    color: #22262A;
+}
+#email{
+    width: 100%;
+    padding: 10px 0 10px 25px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+}
+#email::placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+[for='email']{
+    position: relative;
+}
+.send{
+    position: absolute;
+    border: none;
+    background: transparent;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+    cursor: pointer;
+}
+.feedback-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.feedback-nav-list{
+    list-style: none;
+
+}
+.feedback-nav-title{
+    display: inline-block;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #22262A;
+}
+.feedback-nav-link{
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+    margin-bottom: 20px;
+}
+.footer{
+    background: #E7F5F8;
+    padding: 35px 0;
+}
+.footer-desc{
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+    text-align: center;
+}
+
+
